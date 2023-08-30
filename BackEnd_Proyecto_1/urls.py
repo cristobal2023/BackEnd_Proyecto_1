@@ -22,4 +22,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('',views.hola),
     path('chao', views.chao),
+    path('verhora', views.verhora),
 ]
